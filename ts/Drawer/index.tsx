@@ -76,9 +76,9 @@ export class DrawerItem extends ListLinkItem<
   }
 }
 
-export interface IDrawerProps extends JSX.HTMLAttributes {
-  onAccept?: JSX.GenericEventHandler;
-  onCancel?: JSX.GenericEventHandler;
+export interface IDrawerProps extends preact.JSX.HTMLAttributes {
+  onAccept?: preact.JSX.GenericEventHandler;
+  onCancel?: preact.JSX.GenericEventHandler;
   dismissible?: boolean;
   modal?: boolean;
 }

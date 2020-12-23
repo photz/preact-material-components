@@ -11,8 +11,8 @@ export interface ISliderProps {
   max?: number;
   step?: number;
 
-  onInput?: JSX.GenericEventHandler;
-  onChange?: JSX.GenericEventHandler;
+  onInput?: preact.JSX.GenericEventHandler<any>;
+  onChange?: preact.JSX.GenericEventHandler<any>;
 }
 
 export interface ISliderState {}

@@ -21,7 +21,7 @@ export interface IButtonProps {
 export interface IButtonState {}
 
 export class Button<
-  PropsType = JSX.HTMLAttributes,
+  PropsType = preact.JSX.HTMLAttributes,
   StateType = {}
 > extends MaterialComponent<
   PropsType & IButtonProps,

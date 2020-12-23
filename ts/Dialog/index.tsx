@@ -85,9 +85,9 @@ export class DialogFooterButton extends Button<
   }
 }
 
-export interface IDialogProps extends JSX.HTMLAttributes {
-  onAccept?: JSX.GenericEventHandler;
-  onCancel?: JSX.GenericEventHandler;
+export interface IDialogProps extends preact.JSX.HTMLAttributes {
+  onAccept?: preact.JSX.GenericEventHandler<any>;
+  onCancel?: preact.JSX.GenericEventHandler<any>;
 }
 
 export interface IDialogState {}

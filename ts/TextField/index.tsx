@@ -249,7 +249,7 @@ interface ITextFieldOwnProps {
 }
 
 export interface ITextFieldProps
-  extends SoftMerge<ITextFieldOwnProps, JSX.HTMLAttributes> {}
+  extends SoftMerge<ITextFieldOwnProps, preact.JSX.HTMLAttributes> {}
 
 export interface ITextFieldState {}
 

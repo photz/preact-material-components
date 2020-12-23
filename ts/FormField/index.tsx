@@ -1,7 +1,7 @@
 import {h} from 'preact';
 import MaterialComponent from '../Base/MaterialComponent';
 
-export interface IFormfieldProps extends JSX.HTMLAttributes {
+export interface IFormfieldProps extends preact.JSX.HTMLAttributes {
   'align-end'?: boolean; // TODO: Add to docs / remove here
 }
 

@@ -12,7 +12,7 @@ export interface IMaterialComponentOwnState {}
 
 export type MaterialComponentProps<PropType> = SoftMerge<
   PropType & IMaterialComponentOwnProps,
-  JSX.HTMLAttributes
+  preact.JSX.HTMLAttributes
 >;
 
 export type MaterialComponentState<StateType> = StateType &

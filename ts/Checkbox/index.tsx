@@ -5,7 +5,7 @@ import MaterialComponent from '../Base/MaterialComponent';
 export interface ICheckboxProps {
   indeterminate?: boolean;
   disabled?: boolean;
-  onChange?: JSX.GenericEventHandler;
+  onChange?: preact.JSX.GenericEventHandler<any>;
   checked?: boolean;
 }
 

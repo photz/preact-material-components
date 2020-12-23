@@ -19,7 +19,7 @@ export interface ITypographyProps {
   tag?:
     | Component<{}, {}>
     | ((props: {}) => VNode)
-    | keyof JSX.IntrinsicElements;
+    | keyof preact.JSX.IntrinsicElements;
 }
 
 export interface ITypographyState {}
