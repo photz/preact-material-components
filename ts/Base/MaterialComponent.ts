@@ -76,13 +76,15 @@ export abstract class MaterialComponent<
     }
 
     const element = this.materialDom(componentProps);
+
     let propName = 'attributes';
 
     if ('props' in element) {
       propName = 'props';
-      // @ts-ignore
-      element.props = element.props || {};
+
+      element.props = element.props || {children: null};
     } else {
+      // @ts-ignore
       element.attributes = element.attributes || {};
     }
 
@@ -184,6 +186,7 @@ export abstract class MaterialComponent<
       // @ts-ignore
       element.props = element.props || {};
     } else {
+      // @ts-ignore
       element.attributes = element.attributes || {};
     }
 
